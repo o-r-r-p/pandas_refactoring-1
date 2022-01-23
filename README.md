@@ -9,7 +9,7 @@ Pandas_refactoring
 │  ├─data    
 │  │  ├─climate_precip.csv    
 │  │  └─climate_temp.csv    
-│  ├─#main.py    
+│  ├─main.py    
 │  ├─preprocessing.py    
 │  ├─computation.py    
 │  └─output.py    
