@@ -8,9 +8,9 @@ Pandas_refactoring
 │  ├─.mypy_cache    
 │  ├─data    
 │  │  ├─climate_precip.csv    
-│  │  ├─climate_temp.csv
+│  │  ├─climate_temp.csv    
 │  │  └─output.csv    
-│  │
+│  │    
 │  ├─main.py    
 │  ├─preprocessing.py    
 │  ├─computation.py    
