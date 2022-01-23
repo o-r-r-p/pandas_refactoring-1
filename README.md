@@ -49,8 +49,9 @@ refactoringを行う前にBlackでコードをきれいにすることで可読�
 9. 計算や出力に全く影響を与えないコードの削除。
 10. rain_snow_ratioの計算の際、0で割るとnp.nanで返すというコードが正常に機能していなかった。    
 0で割った値をinfで返していたためnp.nanで返すように修正。
-11. 気温の平均を表す変数の名前をavg_cloudsからMonthly_Heating_Degreeへ変更。
-12. ディレクトリ構造の整理のためoutput.csvもdataディレクトリに出力されるように変更。
+11. 気温の平均を表す変数の名前をavg_cloudsからMonthly_Heating_Degreeへ変更。    
+気温を表す変数名へ変更した。    
+13. ディレクトリ構造の整理のためoutput.csvもdataディレクトリに出力されるように変更。
 ## Step5 Pytest
 1. テスト用のcsvファイルを作成。
 2. テストコードの可読性向上のためにfixtureを作成。
